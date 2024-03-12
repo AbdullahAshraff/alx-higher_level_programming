@@ -8,4 +8,4 @@ elif number == 0:
 	x = "is zero"
 else:
 	x = "is negative"
-print(f"{number} {x}")
+print(f"{number:d} {x}")
