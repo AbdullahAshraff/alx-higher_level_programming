@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-number = -98
+number = random.randint(-10000, 10000)
 digit = abs(number) % 10
 if digit < 0:
      digit = -digit
